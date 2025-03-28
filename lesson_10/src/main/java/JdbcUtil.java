@@ -1,16 +1,9 @@
+import java.sql.*;
 
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-
-public class JdbcUtils {
-
+public class JdbcUtil {
     // 数据库连接参数
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/javaweb";
+    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/Javaweb";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "root";
 
@@ -81,7 +74,6 @@ public class JdbcUtils {
             throw new RuntimeException("执行查询操作失败", e);
         }
     }
+
+
 }
-
-
-

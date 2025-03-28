@@ -1,8 +1,4 @@
-/**
- * @description:student
- * @author:halation
- * @date:2025/3/18 15:06
- **/
+
 public class Student {
 
 
